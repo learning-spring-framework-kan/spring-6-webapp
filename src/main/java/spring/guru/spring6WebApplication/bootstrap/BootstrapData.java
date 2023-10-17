@@ -40,12 +40,14 @@ public class BootstrapData implements CommandLineRunner {
 
 
         Book meraPind = new Book();
-        meraPind.setIsbn("M_E_R_A_P_I_N_D");
+        meraPind.setIsbn("1234");
+        meraPind.setTitle("M_E_R_A_P_I_N_D");
         meraPind.setPublisher(pearson);
         meraPind.setAuthors(authorSet);
 
         Book meraShehr = new Book();
-        meraShehr.setIsbn("M_E_R_A_S_H_E_H_R");
+        meraShehr.setIsbn("4567");
+        meraShehr.setTitle("M_E_R_A_S_H_E_H_R");
         meraShehr.setPublisher(pearson);
         meraShehr.setAuthors(authorSet);
 
